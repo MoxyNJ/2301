@@ -1,0 +1,38 @@
+.colorBtn {
+  --el-button-bg-color: #ff704f !important;
+  --el-button-hover-text-color: rgb(255, 255, 255) !important;
+  --el-button-border-color: #ff704f !important;
+  --el-button-hover-bg-color: rgb(255, 155, 132) !important;
+  --el-button-hover-text-color: rgb(255, 255, 255) !important;
+  --el-button-hover-border-color: rgb(255, 155, 132) !important;
+  --el-button-active-bg-color: rgb(208, 94, 67) !important;
+  --el-button-active-border-color: rgb(208, 94, 67) !important;
+}
+
+.cancelBtn {
+  --el-button-bg-color: white !important;
+  --el-button-hover-text-color: rgb(255, 255, 255) !important;
+  --el-button-border-color: #ff704f !important;
+  --el-button-hover-bg-color: rgb(255, 155, 132) !important;
+  --el-button-hover-text-color: #ff704f !important;
+  --el-button-hover-border-color: rgb(255, 155, 132) !important;
+  --el-button-active-bg-color: rgb(208, 94, 67) !important;
+  --el-button-active-border-color: rgb(208, 94, 67) !important;
+  color: #ff704f !important;
+
+  &:hover {
+    color: white !important;
+  }
+}
+
+.el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px rgb(208, 94, 67) inset !important;
+}
+
+// .html {
+//   --el-select-input-focus-border-color: rgb(208, 94, 67) !important;
+// }
+
+:deep(.el-select .el-input__wrapper.is-focus) {
+  box-shadow: 0 0 0 1px var(--el-select-input-focus-border-color) inset !important;
+}
